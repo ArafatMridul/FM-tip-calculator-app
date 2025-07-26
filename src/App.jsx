@@ -15,7 +15,7 @@ const App = () => {
                 <div className="flex items-center justify-center pt-12 pb-10 lg:pt-41 lg:pb-21">
                     <img src={logo} alt="splitter logo" />
                 </div>
-                <div className="h-full bg-n-w rounded-3xl py-8 lg:py-0 sm:w-[580px] sm:mx-auto lg:w-[920px] lg:grid lg:grid-cols-2">
+                <div className="h-full bg-n-w rounded-3xl py-8 lg:py-0 sm:w-[580px] sm:mx-auto lg:w-[920px] lg:grid lg:grid-cols-2 lg:shadow-lg">
                     <div className="px-8 lg:py-11.5 lg:pl-12 lg:pr-8">
                         <BillInput icon={dollar} label="Bill" />
                         <TipsContainer />
