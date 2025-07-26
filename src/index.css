@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+    --color-p-g: hsl(172, 67%, 45%);
+    --color-n-g: hsl(183, 100%, 15%);
+    --color-n-g-1: hsl(189, 47%, 97%);
+    --color-n-g-2: hsl(185, 41%, 84%);
+    --color-n-g-3: hsl(184, 14%, 56%);
+    --color-n-g-4: hsl(186, 14%, 43%);
+    --color-n-w: hsl(0, 100%, 100%);
+    --font-sm: "Space Mono", monospace;
+}
+
+/* For Chrome, Safari, Edge, Opera */
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+.no-spinner {
+    -moz-appearance: textfield;
+}
