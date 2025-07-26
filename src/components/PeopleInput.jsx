@@ -23,6 +23,7 @@ const PeopleInput = ({ label, icon }) => {
                 <input
                     type="number"
                     step="any"
+                    placeholder="0"
                     value={numberOfPeople === null ? "" : numberOfPeople}
                     onChange={(e) => {
                         dispatch({

@@ -15,6 +15,7 @@ const BillInput = ({ label, icon }) => {
                 <input
                     type="number"
                     step="any"
+                    placeholder="0"
                     value={
                         billAmount === 0 || billAmount === null
                             ? ""
